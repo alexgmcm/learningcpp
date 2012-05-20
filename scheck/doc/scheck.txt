@@ -1,0 +1,27 @@
+scheck
+--------------------
+
+Spell checker for journal submissions (tutorial exercise,
+see here: http://latedev.wordpress.com/2012/04/29/writing-a-real-c-program-index/)
+
+Requirements:
+-------------
+
+ Plain ASCII submissions
+ Check each submission for spelling mistakes
+ Output number of errors and print the errors in context
+ Alongside standard English dictionary also support multiple technical dictionaries for specialist terms
+
+Aim to produce console program with command line operation like:
+scheck [-n] [[-d special.dict] …] [file …]
+
+where -n prints only the number of errors and -d specifies a special dictionary.
+
+Sample Output:
+article1.txt,2 errors
+article1.text,7,thre,perhaps thre is a reaction
+article1.text,12,phiton,low-energy phiton is emitted
+
+Could add XML output later, but first aim for comma seperated variables as above.
+
+Checking a document should not take more than 2-3x as long as listing it on the screen.
