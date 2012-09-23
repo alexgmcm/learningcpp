@@ -1,0 +1,27 @@
+look up functors (function pointers) -> state machines
+
+what happens when you index with the x++ operator? I guess it indexes with the old val, then increments?
+
+clarify difference between reference and pointers
+
+what is enum{} type?
+
+clarify what <> mean? e.g. std::set <std::string>, does it mean consist of?
+
+is it related to why stdlib headers are included with <> not ""?
+
+look up compiler versus linker etc.
+
+look up make tutorial
+
+extend states to deal with hyphen as described in comment in parser.cpp
+
+look over algorithms book and coursera course, accelerated cpp and cpp by the inventor dude
+
+CSV = comma-separated values
+
+lookup xhtml,xml,json formats
+
+implement context etc. in scheck?
+
+lookup virtual functions, protected members, destructors

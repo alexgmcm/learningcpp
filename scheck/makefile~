@@ -1,0 +1,8 @@
+bin/scheck : bin/main.o bin/parser.o
+	g++ bin/main.o bin/parser.o -o bin/scheck
+
+bin/parser.o : src/parser.cpp inc/parser.h inc/error.h 
+	g++ -I inc -c src/parser.cpp -o bin/parser.o
+
+bin/main.o : src/main.cpp inc/parser.h inc/error.h inc/dictionary.h
+	g++ -I inc -c src/main.cpp -o bin/main.o
